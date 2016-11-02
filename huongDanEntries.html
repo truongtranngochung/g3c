@@ -1,0 +1,7 @@
+<ul ng-controller="huongDanEntriesController">
+		<li class="well" ng-repeat="(index, entry) in Entries">
+			<p><a href="#/huongDan/{{index}}">{{entry.name}}</a></p>
+			<p>{{entry.image}}</p>
+			
+		</li>
+	<ul>
